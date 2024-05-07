@@ -1,0 +1,18 @@
+.about{
+    flex: 1 1 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    border:1px solid hsl(347, 100%, 80%);
+    margin: 5% 1% 5% 1%;
+    border-radius: 10px;
+}
+.about p{
+    flex: 1 1 100%;
+    text-align: center;
+}
+.about img{
+    flex:0 0 10%;
+    width: 20%;
+}

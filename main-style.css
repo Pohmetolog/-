@@ -1,0 +1,152 @@
+main {
+    flex: 1 1 100%;
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 5%;
+}
+
+.catalog,
+.top,
+aside {
+    flex: 1 1 20%;
+    border-radius: 10px;
+}
+
+.catalog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(pics/depositphotos_56570359-stock-photo-perfume-in-bottle-2829955810.webp);
+    background-position: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 400px;
+    cursor: pointer;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(pics/different-bottles-perfume-pink-background-perfumery-fragrance-collection-115588170-3976503052.jpg);
+    background-position: 100%;
+    margin-right: 2%;
+    height: 400px;
+    cursor: pointer;
+}
+
+.catalog a,
+.top a {
+    font-size: 30pt;
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+
+aside {
+    margin-right: 2%;
+    background-color: hsl(347, 100%, 92%);
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+form .caption {
+    flex: 1 1 100%;
+}
+
+form .caption p {
+    text-align: center;
+    font-size: 17pt;
+}
+
+form .mail,
+form .pass,
+form .sex {
+    flex: 1 1 100%;
+    display: flex;
+    flex-flow: row wrap;
+    padding-left: 5%;
+}
+
+.mail p,
+.pass p,
+.sex p {
+    flex: 1 1 100%;
+}
+
+.mail input,
+.pass input {
+    flex: 0 0 80%;
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 0;
+    background-color: #D9D9D9;
+}
+
+.sex input {
+    margin-right: 10%;
+}
+
+.sex span {
+    margin-left: 10%;
+}
+
+form button {
+    height: 40px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+form button:hover {
+    border: 1px solid;
+}
+
+@media (max-width:480px) {
+    main {
+        flex: 1 1 100%;
+        width: 100%;
+    }
+
+    .catalog,
+    .top {
+        flex: 1 1 100%;
+        width: 100%;
+        margin-bottom: 10%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    aside {
+        display: none;
+    }
+}
+
+@media(min-width:481px) and (max-width:1000px) {
+    main {
+        flex: 1 1 100%;
+    }
+
+    main .catalog,
+    main .top {
+        flex: 1 1 100%;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-bottom: 10%;
+    }
+
+    aside {
+        display: none;
+    }
+}

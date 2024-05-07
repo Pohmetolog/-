@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <slot>
+        <name>Elite</name>
+        <description>Приятный цитрусовый аромат с нотками древесины</description>
+        <price>200BYN</price>
+        <image>goods/EliteEDT100mlBottle.webp</image>
+    </slot>
+    <slot>
+        <name>Cefiro</name>
+        <description>Аромат пряных лайма и лемона в сочитании с 
+            легкими нотками бергамота
+        </description>
+        <price>200BYN</price>
+        <image>goods/CefiroEDT100mlBottle.webp</image>
+    </slot>
+    <slot>
+        <name>Lilly</name>
+        <description>Сабалансированный цветочный аромат с выделяющимися
+            нотками розы
+        </description>
+        <price>250BYN</price>
+        <image>goods/LilyEDT100mlBottle.webp</image>
+    </slot>
+    <slot>
+        <name>A rose for her...</name>
+        <description>Сильный и долгоиграющий аромат розы</description>
+        <price>300BYN</price>
+        <image>goods/ARoseForEDPBottleWEB.webp</image>
+    </slot>
+    <slot>
+        <name>Cherry Blossom</name>
+        <description>Лёгкий весенний аромат, наполненный нотками свежести и
+            наполняющий весенним настроением
+        </description>
+        <price>300BYN</price>
+        <image>goods/CherryBlossomEDPBottleWEB.webp</image>
+    </slot>
+    <slot>
+        <name>Sirena</name>
+        <description>Стойкий аромат морского бриза с выделяющимися
+            нотками свежести вечернего моря
+        </description>
+        <price>320BYN</price>
+        <image>goods/SirenaEDPBottleWEB.webp</image>
+    </slot>
+    <slot>
+        <name>Honey Oud</name>
+        <description>Смесь ароматов английского мёда и ванили, отдающая
+            бархатной мягкостью и нотками дубового дерева
+        </description>
+        <price>350BYN</price>
+        <image>goods/HoneyOudEDPBottleWEB.webp</image>
+    </slot>
+    <slot>
+        <name>Mulberry Fig</name>
+        <description>Аромат последождевого леса , в сочитании с
+            лёгкими нотками запаха скошенной травы
+        </description>
+        <price>400BYN</price>
+        <image>goods/MulberryFigEDPBottleWEB.webp</image>
+    </slot>
+</data>

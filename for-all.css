@@ -1,0 +1,423 @@
+body {
+    color: rgba(70, 70, 70, 1);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 0;
+    margin-right: 0;
+    transition: 0.3s ease-out;
+    font-size: 15pt;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    align-items: flex-start;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color:rgba(70, 70, 70, 1) ;
+}
+header {
+    flex: 1 1 100%;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    /* border: 1px solid; */
+    padding-bottom: 20px;
+}
+.mobile-menu{
+    display: none;
+}
+.menu-button{
+    display: none;
+}
+
+header svg {
+    flex: 0 0 3%;
+    width: 3%;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+header .poisk {
+    width: 35%;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: 25%;
+    margin-right: 5%;
+    margin-top: 1.4%;
+}
+
+.poisk form {
+    width: 100%;
+    height: 40px;
+}
+
+.poisk form input {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: #D9D9D9;
+}
+
+header .cart {
+    width: 15%;
+    /* border: 1px solid; */
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 1%;
+}
+
+header .cart img {
+    width: 20%;
+    display: inline;
+    cursor: pointer;
+    /* border:1px solid; */
+}
+
+header .cart a {
+    text-align: right;
+    width: 70%;
+    display: inline;
+    /* border: 1px solid; */
+    padding-top: 6.5%;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.cart a:hover {
+    text-decoration: underline;
+}
+
+header .profile {
+    width: 15%;
+    /* border: 1px solid; */
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 1%;
+}
+
+header .profile img {
+    width: 20%;
+    display: inline;
+    cursor: pointer;
+    /* border:1px solid; */
+}
+
+header .profile a {
+    text-align: right;
+    width: 70%;
+    display: inline;
+    /* border: 1px solid; */
+    padding-top: 6.5%;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.profile a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    flex: 1 1 100%;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(347, 100%, 92%);
+}
+
+nav a {
+    display: block;
+    margin-right: 20%;
+    /* border: 1px solid; */
+    text-decoration: none;
+    color: gray;
+}
+
+nav a:last-child {
+    margin-right: 0;
+}
+
+nav a:first-child {
+    margin-left: -5%;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    flex: 1 1 100%;
+    margin-top: 5%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+footer .left {
+    flex: 1 1 30%;
+    background-color: #D9D9D9;
+}
+
+.left p {
+    text-align: center;
+}
+
+footer .right {
+    flex: 1 1 60%;
+    background-color: hsl(347, 100%, 92%);
+    display: flex;
+    flex-flow: row wrap;
+}
+
+footer .right .contact {
+    flex: 1 1 45%;
+}
+
+footer .contact a,
+.contact p {
+    display: block;
+    text-align: center;
+    margin-bottom: 3%;
+    cursor: pointer;   
+}
+
+footer .right .social {
+    flex: 1 1 45%;
+}
+
+footer .right .social p {
+    text-align: center;
+}
+
+footer .right img {
+    width: 10%;
+    display: inline;
+}
+
+.right .inst, .right .vk, .right .tik {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 1%;
+    align-items: center;
+    justify-content: center; 
+    cursor: pointer;   
+}
+.right .tik{
+    margin-left: -6%;
+}
+@media (max-width:480px){
+    .container{
+        flex-flow: column wrap;
+    }
+    header{
+        flex: 1 1 100%;
+    }
+    header .cart, header .profile{
+        display: none;
+    }
+    .mobile-menu{
+        display: flex;
+        flex-flow: column wrap;
+        position: fixed;
+        top: -10px;
+        left: 0; 
+        width: 250px;
+        height: 100%; 
+        background-color: white;
+        overflow-x: hidden;
+        transition: 0.3s ease-in-out; 
+        padding: 0;
+        text-align: left;
+        transform: translateX(-100%);
+    }
+    .mobile-menu ul{
+        display: flex;
+        flex-flow: row wrap;
+        margin-top: 50px;
+        margin-left: 0;
+        margin-right: 15%;
+    }
+    .mobile-menu ul li{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: 1 1 100%;
+        list-style-type: none;
+        height: 40px;
+        width: 100%;
+        border: 1px solid #171A5B;
+        margin-bottom: 5%;
+        cursor: pointer;
+    }
+    .mobile-menu ul li:hover{
+        color: white;
+        background-color:hsl(347, 100%, 92%) ;
+    }
+    
+     .open{
+        /* display: block; */
+        transform: translateX(0);
+    }
+    .menu-button{
+        display: block;
+        height: 40px;
+        width: 40px;
+        margin-top: 1.5%;
+        margin-left: 2%;
+        border: none;
+        background-color: white;
+        background-image: url(pics/menu-svgrepo-com.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        cursor: pointer;
+        padding: 10px;
+    }
+    .menu-button:hover{
+        border: 1px solid gray;
+    }
+    .mobile-menu .close-menu{
+        display: block;
+        /* flex: 1 1 100%; */
+        height: 40px;
+        width: 40px;
+        background-image: url("pics/cross-svgrepo-com.svg");
+        background-repeat: no-repeat;
+        background-color: white;
+        border: none;
+        background-size: 100%;
+        cursor: pointer;
+        margin-left: 2%;
+        margin-top: 2%;
+    }
+    .mobile-menu .close-menu:hover{
+        border: 1px solid gray;
+    }
+    header svg{
+        flex: 0 0  10%;
+        margin-right: 0;
+        margin-left: 7%;
+    }
+    header .poisk{
+        flex: 1 1 40%;
+        margin-left: 5%;
+    }
+    nav{
+        display: none;
+    }
+    footer{
+        flex: 1 1 100%;
+        width: 100%;
+        font-size: 13pt;
+    }
+    footer .left{
+        flex: 1 1 40%;
+        width: 40%;
+    }
+    footer .right{
+        flex: 1 1 50%;
+        width: 50%;
+    }
+}
+@media(min-width:481px) and (max-width:1000px){
+    header svg{
+        flex: 0 0 5%;
+        margin-right: 0;
+        margin-left: 5%;
+    }
+    header .poisk{
+        border: 1px solid;
+        flex: 1 1 30%;
+        margin-left: 10%;
+        width: 100%;;
+        margin-right: 10%;
+
+    }
+    header .cart , header .profile{
+        display: none;
+    }
+    .mobile-menu{
+        display: flex;
+        flex-flow: column wrap;
+        position: fixed;
+        top: -10px;
+        left: 0; 
+        width: 250px;
+        height: 100%; 
+        background-color: white;
+        overflow-x: hidden;
+        transition: 0.3s ease-in-out; 
+        padding: 0;
+        text-align: left;
+        transform: translateX(-100%);
+    }
+    .mobile-menu ul{
+        display: flex;
+        flex-flow: row wrap;
+        margin-top: 50px;
+        margin-left: 0;
+        margin-right: 15%;
+    }
+    .mobile-menu ul li{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: 1 1 100%;
+        list-style-type: none;
+        height: 40px;
+        width: 100%;
+        border: 1px solid #171A5B;
+        margin-bottom: 5%;
+        cursor: pointer;
+    }
+    .mobile-menu ul li:hover{
+        color: white;
+        background-color:hsl(347, 100%, 92%) ;
+    }
+    
+     .open{
+        /* display: block; */
+        transform: translateX(0);
+    }
+    .menu-button{
+        display: block;
+        height: 40px;
+        width: 40px;
+        margin-top: 1.5%;
+        margin-left: 2%;
+        border: none;
+        background-color: white;
+        background-image: url(pics/menu-svgrepo-com.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        cursor: pointer;
+        padding: 10px;
+    }
+    .menu-button:hover{
+        border: 1px solid gray;
+    }
+    .mobile-menu .close-menu{
+        display: block;
+        /* flex: 1 1 100%; */
+        height: 40px;
+        width: 40px;
+        background-image: url("pics/cross-svgrepo-com.svg");
+        background-repeat: no-repeat;
+        background-color: white;
+        border: none;
+        background-size: 100%;
+        cursor: pointer;
+        margin-left: 2%;
+        margin-top: 2%;
+    }
+    .mobile-menu .close-menu:hover{
+        border: 1px solid gray;
+    }
+    nav{
+        display: none;
+    }
+}

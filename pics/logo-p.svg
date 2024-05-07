@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 516.67 683.33">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #f6bcc9;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 50px;
+      }
+    </style>
+  </defs>
+  <g id="SVGRepo_iconCarrier" data-name="SVGRepo iconCarrier">
+    <g id="ic-shopping-parfume">
+      <path class="cls-1" d="m191.67,325h0c92.05,0,166.67,74.62,166.67,166.67v166.67H25v-166.67c0-92.05,74.62-166.67,166.67-166.67Z"/>
+      <path class="cls-1" d="m291.67,358.33v-66.67c0-36.82-29.85-66.67-66.67-66.67h-66.67c-36.82,0-66.67,29.85-66.67,66.67v66.67"/>
+      <line class="cls-1" x1="191.67" y1="25" x2="191.67" y2="225"/>
+      <line class="cls-1" x1="191.67" y1="91.67" x2="291.67" y2="91.67"/>
+      <path class="cls-1" d="m358.33,25h66.67c36.82,0,66.67,29.85,66.67,66.67h0c0,36.82-29.85,66.67-66.67,66.67h-66.67c-36.82,0-66.67-29.85-66.67-66.67h0c0-36.82,29.85-66.67,66.67-66.67Z"/>
+    </g>
+  </g>
+</svg>
