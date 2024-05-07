@@ -1,1 +1,1 @@
-[Shop](catalog.html)
+[Shop](Kursach/catalog.html)
