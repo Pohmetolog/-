@@ -1,1 +1,1 @@
-[Shop](Kursach/catalog.html)
+[Shop](https://pohmetolog.github.io/Kursach/catalog.html)
